@@ -3,7 +3,7 @@ rimraf.sync = rimrafSync
 
 var assert = require("assert")
 var path = require("path")
-var fs = require("fs")
+var fs = require("original-fs")
 var glob = require("glob")
 
 var defaultGlobOpts = {
